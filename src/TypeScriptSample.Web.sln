@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScriptSample.Web", "TypeScriptSample.Web\TypeScriptSample.Web.csproj", "{5BD02DF0-57A5-4CE1-8C26-9231AEB0D471}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScriptSample.Models", "TypeScriptSample.Models\TypeScriptSample.Models.csproj", "{F09679BE-2BD7-4DB6-A9B5-37C525472CDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5BD02DF0-57A5-4CE1-8C26-9231AEB0D471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BD02DF0-57A5-4CE1-8C26-9231AEB0D471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BD02DF0-57A5-4CE1-8C26-9231AEB0D471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09679BE-2BD7-4DB6-A9B5-37C525472CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09679BE-2BD7-4DB6-A9B5-37C525472CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09679BE-2BD7-4DB6-A9B5-37C525472CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09679BE-2BD7-4DB6-A9B5-37C525472CDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

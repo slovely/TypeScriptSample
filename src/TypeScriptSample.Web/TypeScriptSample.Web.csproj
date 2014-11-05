@@ -207,7 +207,6 @@
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -290,6 +289,12 @@
     <TypeScriptCompile Include="Scripts\Typings\knockout\knockout.d.ts" />
     <TypeScriptCompile Include="Scripts\Typings\moment\moment.d.ts" />
     <TypeScriptCompile Include="Scripts\Typings\signalr\signalr.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TypeScriptSample.Models\TypeScriptSample.Models.csproj">
+      <Project>{F09679BE-2BD7-4DB6-A9B5-37C525472CDB}</Project>
+      <Name>TypeScriptSample.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

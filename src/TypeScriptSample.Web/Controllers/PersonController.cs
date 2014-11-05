@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Web.Http;
-using TypeScriptSample.Web.Models;
+using TypeScriptSample.Models;
 
 namespace TypeScriptSample.Web.Controllers
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TypeScriptSample.Web.Models
+namespace TypeScriptSample.Models
 {
     public class Person
     {
