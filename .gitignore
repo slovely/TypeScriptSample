@@ -185,3 +185,5 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+src/TypeScriptSample.Web/App/**/*.js
+src/TypeScriptSample.Web/App/**/*.js.map

@@ -280,6 +280,8 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="App\app.ts" />
+    <TypeScriptCompile Include="App\server\classes.d.ts" />
+    <TypeScriptCompile Include="App\server\enums.ts" />
     <TypeScriptCompile Include="Scripts\Typings\chartjs\chart.d.ts" />
     <TypeScriptCompile Include="Scripts\Typings\durandal\durandal.d.ts" />
     <TypeScriptCompile Include="Scripts\Typings\googlemaps\google.maps.d.ts" />
