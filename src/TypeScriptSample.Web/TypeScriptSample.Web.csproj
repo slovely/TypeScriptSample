@@ -327,6 +327,9 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>"$(SolutionDir)Tools\TypeScriptSample.Generator.exe" "$(SolutionDir)TypeScriptSample.Models\bin\debug\TypeScriptSample.Models.dll" "$(ProjectDir)App\server"</PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
